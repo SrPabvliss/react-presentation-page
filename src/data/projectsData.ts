@@ -31,5 +31,11 @@ export const projectsData : IProject[] = [
     imageUrl: 'img/Jefecita.png',
     pageUrl: 'https://v2-restaurant-app-front.vercel.app/'
   },
+  {
+    title: 'Ambivalence',
+    description: `Página de venta de productos para una marca de ropa realizada con nextjs. El link incluye la vista al público, la vista de administrador no está disponible por motivos de seguridad y privacidad`,
+    imageUrl: 'img/Ambivalence.png',
+    pageUrl: 'https://clothstore-zeta.vercel.app/'
+  },
 
 ];
