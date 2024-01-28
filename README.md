@@ -37,9 +37,8 @@ VITE_EMAILJS_TEMPLATE_ID=tu_template_id
 VITE_EMAILJS_USER_ID=tu_user_id
 ```
 
-Estas credenciales serán necesarias para que puedas recibir correos electrónicos de personas interesadas en contactarte.
+> Estas credenciales serán necesarias para que puedas recibir correos electrónicos de personas interesadas en contactarte. Para obtenerlas debes crear una cuenta en la [página oficial de email Js](https://www.emailjs.com/docs/) 
 
-Si quieres aprender más sobre EmailJS puedes hacerlo [aqui](https://www.emailjs.com/docs/) 
 
 4. Ejecuta el proyecto en modo de desarrollo: 
 ```
