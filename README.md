@@ -21,7 +21,7 @@ Una serie de ejemplos paso a paso que te indican cómo ejecutar un entorno de de
 
 1. Clona el repositorio
 ```
-git clone 
+git clone https://github.com/SrPabvliss/react-presentation-page.git
 ```
 
 2. Instala las dependencias del proyecto
