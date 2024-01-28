@@ -34,7 +34,7 @@ export const verticalChildrenVariant = {
 export const horizontalChildrenVariant = {
   hidden: {
     opacity: 0,
-    x: 100,
+    x: 25 ,
   },
   visible: {
     opacity: 1,

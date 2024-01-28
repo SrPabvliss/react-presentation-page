@@ -15,12 +15,11 @@ export const Hero = () => {
 					variants={horizontalChildrenVariant}
 					className="absolute bg-black bg-opacity-70 w-full h-full flex flex-col items-center justify-center"
 				>
-					<h2 className="text-white text-3xl font-bold">
+					<h2 className="text-white text-xl font-bold md:text-3xl">
 						Estudiante de ingeniería en Software
 					</h2>
-					<div className="flex items-end py-8">
+					<div className="flex flex-col items-end py-8">
 						<CiLocationOn className="text-yellow-300 h-24 w-32" />
-
 						<p className="font-light text-white">Ambato, Ecuador</p>
 					</div>
 					<a

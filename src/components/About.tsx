@@ -10,7 +10,7 @@ const About = () => {
 				variants={singleVerticalVariant}
 				initial="hidden"
 				animate="visible"
-				className="flex w-full"
+				className="flex flex-col md:flex-row w-full"
 				id="sobre-mi"
 			>
 				<div className="w-full  p-4 flex">

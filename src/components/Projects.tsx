@@ -25,7 +25,7 @@ const Projects = () => {
 				animate={mainControls}
 				initial="hidden"
 				variants={parentVariant}
-				className="bg-white my-12 py-8 shadow-lg rounded-2xl"
+				className="bg-white my-12 py-8 shadow-lg rounded-2xl mx-4"
 				id="paginas-web"
 			>
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

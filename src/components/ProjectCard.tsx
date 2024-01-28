@@ -14,13 +14,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 	pageUrl,
 }) => (
 	<li className="mt-10 md:mt-0">
-		<div className="flex gap-5">
+		<div className="flex flex-col md:flex-row gap-5">
 			<div className="flex-1">
 				<div className="flex items-center justify-center rounded-lg text-white">
 					<img src={imageUrl} alt={title} className="rounded-md w-3/4 h-auto" />
 				</div>
 			</div>
-			<div className="flex-1">
+			<div className="flex-1 text-center md:text-start">
 				<h2 className="text-xl font-medium text-gray-900">{title}</h2>
 				<p className="my-4 text-gray-500 whitespace-pre-line">{description}</p>
 				<a

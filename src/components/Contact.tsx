@@ -21,7 +21,7 @@ const Contact = () => {
 				animate={mainControls}
 				initial="hidden"
 				variants={parentVariant}
-				className="bg-white my-12 py-6 shadow-lg rounded-2xl"
+				className="bg-white my-12 py-6 shadow-lg rounded-2xl mx-4"
 				id="contacto"
 			>
 				<div className="py-8">
