@@ -1,11 +1,20 @@
 import { CiLocationOn } from "react-icons/ci";
-
+import { motion } from "framer-motion";
+import { horizontalChildrenVariant, parentVariant } from "../animations/variants";
 
 export const Hero = () => {
 	return (
 		<>
-			<section className="relative bg-cover bg-[url('/img/hero.jpg')] h-[30rem] mb-8">
-				<div className="absolute bg-black bg-opacity-70 w-full h-full flex flex-col items-center justify-center">
+			<motion.section
+				animate="visible"
+				initial="hidden"
+				variants={parentVariant}
+				className="relative bg-cover bg-[url('/img/hero.jpg')] h-[30rem] mb-8"
+			>
+				<motion.div
+					variants={horizontalChildrenVariant}
+					className="absolute bg-black bg-opacity-70 w-full h-full flex flex-col items-center justify-center"
+				>
 					<h2 className="text-white text-3xl font-bold">
 						Estudiante de ingeniería en Software
 					</h2>
@@ -20,8 +29,8 @@ export const Hero = () => {
 					>
 						Contactar
 					</a>
-				</div>
-			</section>
+				</motion.div>
+			</motion.section>
 		</>
 	);
 };

@@ -1,11 +1,18 @@
+import { singleVerticalVariant } from "../animations/variants";
 import { fields } from "../data/aboutData";
 import ReadOnlyField from "./ReadOnlyField";
+import { motion } from "framer-motion";
 
 const About = () => {
-
 	return (
 		<>
-			<div className="flex w-full" id="sobre-mi">
+			<motion.div
+				variants={singleVerticalVariant}
+				initial="hidden"
+				animate="visible"
+				className="flex w-full"
+				id="sobre-mi"
+			>
 				<div className="w-full  p-4 flex">
 					<div className="bg-yellow-400 p-8 rounded-lg shadow-lg flex-grow">
 						<img
@@ -29,7 +36,7 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	);
 };
