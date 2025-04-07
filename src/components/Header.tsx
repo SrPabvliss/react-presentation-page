@@ -15,7 +15,7 @@ const Header = () => {
 					className="text-white text-3xl font-bold py-4 px-6 text-center flex flex-col md:block"
 				>
 					Pablo Villacres{" "}
-					<span className="font-light text-xl">Futuro ingeniero</span>
+					<span className="font-light text-xl">Desarrollador de software</span>
 				</motion.div>
 			</header>
 			<div className="bg-teal-700">

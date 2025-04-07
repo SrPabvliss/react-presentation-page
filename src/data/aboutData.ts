@@ -7,6 +7,6 @@ export const fields : IField[] = [
   { label: "Educación secundaria", value: "Colegio 'San Pio X'" },
   {
     label: "Eduación superior",
-    value: "UTA - Ingeniería en Software - 5to semestre",
+    value: "UTA - Ingeniería en Software",
   },
 ];
